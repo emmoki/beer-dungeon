@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@splinetool/loader": "^0.9.117",
+    "@splinetool/runtime": "^0.9.117",
+    "three": "^0.145.0"
+  }
+}
