@@ -1,4 +1,14 @@
-#info{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: dungeonFont;
+    src: url(assets/font/dungeon_sn/DUNGRG__.TTF);
+}
+
+#info {
     position: absolute;
     top: 10px;
     width: 100%;
@@ -7,3 +17,33 @@
     display: block;
     color: white;
 }
+
+.nav-item a{
+    font-family: dungeonFont;
+    font-size: 3rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.title h1{
+    font-family: dungeonFont;
+    font-size: 6rem;
+}
+
+.class-title{
+    font-family: dungeonFont;
+    font-size: 4rem;
+}
+
+.card-title{
+    font-family: dungeonFont;
+    font-size: 3rem;
+}
+
+.class-mage-btn{
+    margin-top: 4rem;
+}
+
+.copyright{
+    color: white;
+}
+

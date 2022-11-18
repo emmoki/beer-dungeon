@@ -16,10 +16,93 @@
             }
         }
     </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
-    <script src="script.js" type="module"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <script src="script.js" type="module"></script>
+    </div>
+
+    <div class="title d-flex justify-content-center">
+        <h1>Dungeon and Beer</h1>
+    </div>
+
+    <!-- Beer Object 3D -->
+    <div class="beer-object d-flex justify-content-center">
+        <div id="tulisan">
+        </div>
+    </div>
+
+    <div class="game-description d-flex justify-content-center">
+        <div class=" w-50">
+            &nbsp;&nbsp;&nbsp;&nbsp;Dungeon and Beer is a massively multiplayer online role-playing game (MMORPG)
+            released in 2004 by Blizzard Entertainment. Set in the Warcraft fantasy universe, World of Warcraft takes
+            place within the world of Azeroth, approximately four years after the events of the previous game in the
+            series, Warcraft III: The Frozen Throne.[3] The game was announced in 2001, and was released for the 10th
+            anniversary of the Warcraft franchise on November 23, 2004. Since launch, World of Warcraft has had eight
+            major expansion packs: The Burning Crusade (2007), Wrath of the Lich King (2008), Cataclysm (2010), Mists of
+            Pandaria (2012), Warlords of Draenor (2014), Legion (2016), Battle for Azeroth (2018), and Shadowlands
+            (2020), with a ninth, Dragonflight, currently in development.
+        </div>
+    </div>
+
+    <div class="button d-flex justify-content-center mt-5 ">
+        <div class="btn btn-primary btn-lg ">
+            Play now
+        </div>
+    </div>
+    <div class="classes d-flex justify-content-center mt-5 flex-column">
+        <div class="class-title  d-flex justify-content-center">
+            Classes
+        </div>
+        <ul class="d-flex flex-row d-flex justify-content-center px-0">
+            <div class="card mx-4" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mage</h5>
+                    <p class="card-text">Their arcane and elemental magic causes even the earth to tremble as enemies fall one by one at their feet. Sometimes even the mages themselves fear their own mystical and infinite power because this was the magic first used by the ancient race of the elves.</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-center class-mage-btn">Pick class</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Warrior</h5>
+                    <p class="card-text">Fearless warriors capable of wreaking havoc on the battlefield, Berserkers employ attacks that affect a wide area to help defeat multiple enemies with ease. Armed with a massive two-handed weapon and lust for carnage, Berserkers tend to rush headlong towards the enemy with little concern for their well-being.</p>
+                    <a href="#" class="btn btn-primary d-flex justify-content-center">Pick class</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <footer class="d-flex justify-content-center p-4 bg-primary mt-5">
+        <div class="copyright">
+            Copyright © Emmanuel Oki Nuswantoro
+        </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
