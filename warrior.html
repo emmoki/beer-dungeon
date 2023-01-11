@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "three/": "https://unpkg.com/three@0.138.0/",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js",
+                "@splinetool/loader": "https://unpkg.com/@splinetool/loader@0.9.106/build/SplineLoader.js"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body style="height: 100vh;">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <script src="sword.js" type="module"></script>
+    </div>
+
+    <div class="title d-flex justify-content-center">
+        <h1>Warrior</h1>
+    </div>
+
+    <div class="beer-object d-flex justify-content-center">
+        <div id="warrior">
+        </div>
+    </div>
+
+    <div class="game-description d-flex justify-content-center">
+        <div class=" w-50">
+            &nbsp;&nbsp;&nbsp;&nbsp;Tribal societies (hunter-gathers and small agricultural communities) have social structures and demographics that produce reasonably egalitarian societies, and here all males are warriors, and these warriors basically fit the traits I list below. Agriculture allows larger demographics and more complex social structures which develop hierarchies and specialization of labor. Thus the military structure changes to specialization of labor too. This is a slow gradual development and of course there are overlaps. The emerging aristocracy generally remain warriors forming a warrior class, while their social inferiors begin to be conscript-soldiers or mercenaries. Eventually even this aristocracy must discipline and sacrifice some of their warrior traits to be more professional in order to compete with professional armies, but they generally remain militarists.
+        </div>
+    </div>
+    <footer class="d-flex justify-content-center p-4 bg-dark mt-5">
+        <div class="copyright">
+            Copyright © Beer Dungeon
+        </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
